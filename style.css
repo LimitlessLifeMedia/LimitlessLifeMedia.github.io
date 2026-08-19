@@ -210,6 +210,39 @@ h2 {
   margin-bottom: 0;
 }
 
+.slot-badge {
+  display: inline-block;
+  background: rgba(255, 90, 54, 0.15);
+  color: var(--accent-cta);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+
+.fine-print-box {
+  margin-top: 40px;
+  padding: 28px;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  text-align: center;
+  background: var(--bg);
+}
+
+.fine-print-box p {
+  color: var(--text-muted);
+  max-width: 720px;
+  margin: 0 auto 20px;
+  font-size: 0.95rem;
+}
+
+.fine-print-box strong {
+  color: var(--text);
+}
+
 .beta-section {
   background: var(--bg-alt);
 }
@@ -331,6 +364,24 @@ h2 {
   text-align: center;
   color: var(--text-muted);
   font-size: 1.1rem;
+}
+
+.linkme-copy {
+  max-width: 620px;
+  margin: 0 auto 32px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+.linkme-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.linkme-icon {
+  flex-shrink: 0;
 }
 
 .links {
