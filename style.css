@@ -438,3 +438,33 @@ footer {
   min-width: 240px;
   margin: 0;
 }
+
+.legal-hero {
+  padding: 56px 0 32px;
+}
+
+.legal-content {
+  padding-top: 0;
+}
+
+.legal-content h2 {
+  margin-top: 8px;
+}
+
+.legal-content h3 {
+  margin-top: 36px;
+  color: var(--accent);
+}
+
+.legal-content p, .legal-content li {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.legal-content ul {
+  padding-left: 20px;
+}
+
+.legal-content a {
+  color: var(--accent);
+}
